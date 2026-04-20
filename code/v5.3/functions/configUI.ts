@@ -23,7 +23,6 @@ export const configPanel = new class configPanel {
 
       if(typeof edges != "boolean" || typeof alwaysShow != "boolean" || typeof type != "number" || typeof turnOff != "number" || typeof advanced != "boolean") return;
 
-      world.sendMessage(`${player.name} = ${alwaysShow}`)
       if(alwaysShow){
         player.addTag("utilities_vein_miner:alwaysShowEdges")
         playersList.add(player)
