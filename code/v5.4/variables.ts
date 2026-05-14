@@ -159,21 +159,21 @@ export const worksOnlyForOres: Set<string> = new Set([
 
 export const blocksWithExperience: { [key: string]: [number, number] } = {
   "minecraft:coal_ore": [0, 2],
-  "minecraft:deepsalte_coal_ore": [0, 2],
+  "minecraft:deepslate_coal_ore": [0, 2],
   "minecraft:nether_gold_ore": [0, 1],
   "minecraft:diamond_ore": [3, 7],
-  "minecraft:deepsalte_diamond_ore": [3, 7],
+  "minecraft:deepslate_diamond_ore": [3, 7],
   "minecraft:emerald_ore": [3, 7],
-  "minecraft:deepsalte_emerald_ore": [3, 7],
-  "minecraft:lapis_lazuli_ore": [2, 5],
-  "minecraft:deepsalte_lapis_lazuli_ore": [2, 5],
-  "minecraft:nether_quartz_ore": [2, 5],
+  "minecraft:deepslate_emerald_ore": [3, 7],
+  "minecraft:lapis_ore": [2, 5],
+  "minecraft:deepslate_lapis_ore": [2, 5],
+  "minecraft:quartz_ore": [2, 5],
   "minecraft:redstone_ore": [1, 5],
-  "minecraft:deepsalte_redstone_ore": [1, 5],
+  "minecraft:deepslate_redstone_ore": [1, 5],
   "minecraft:mob_spawner": [15, 43],
   "minecraft:sculk": [1, 1],
   "minecraft:sculk_sensor": [5, 5],
   "minecraft:sculk_shrieker": [5, 5],
   "minecraft:sculk_catalyst": [5, 5],
-  "minecraft:calibrated_culk_sensor": [5, 5]
+  "minecraft:calibrated_sculk_sensor": [5, 5]
 }
